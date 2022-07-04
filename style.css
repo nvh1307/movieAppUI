@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #373b69;
+    font-family:'Kantumruy Pro', sans-serif ;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie{
+    border-radius: 3px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    margin: 2rem;
+    height: 400px;
+    width: 300px;
+
+
+}
+.movie img{
+    object-fit: cover;
+    height: 400px;
+    max-width: 100%;
+
+}
+.movie-infor {
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 1px;
+}
+.movie-infor h3{
+    margin: 0;
+
+}
+.movie-infor span{
+    background-color: #22254b;
+    border-radius: 3px;
+    padding: 0.25rem 0.5rem;
+
+}
